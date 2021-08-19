@@ -1,0 +1,18 @@
+package assignment;
+
+public class CountingBits {
+
+	public static void main(String[] args) {
+		int n =8;
+		int[] ans  = countBits(n);
+		System.out.println("The set bits from 0 to "+n+ " are ");
+		for(int i : ans) {
+			System.out.println(i + " ");
+		}
+	}
+
+	private static int[] countBits(int n) {
+		return null;
+	}
+
+}

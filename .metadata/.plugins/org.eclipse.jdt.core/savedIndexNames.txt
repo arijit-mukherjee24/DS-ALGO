@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Development\TECHDOSE\DSA Workspace\.metadata\.plugins\org.eclipse.jdt.core
+3924257938.index
+1922806976.index
+2809240987.index
+1247960786.index

@@ -1,0 +1,10 @@
+package assignment;
+
+// Leetocde 136
+public class SingleNumber {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

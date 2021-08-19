@@ -1,0 +1,19 @@
+package assignment;
+
+// Leetcode 1734
+// https://www.youtube.com/watch?v=I5-uDlbwbOA
+public class DecodeXoredPermutation {
+
+	public static void main(String[] args) {
+		int[] encoded = { 6, 5, 4, 6 };
+		int[] ans = decode(encoded);
+		System.out.println("The perm array is ");
+		for(int i: ans)
+			System.out.println(i+ " ");
+	}
+
+	private static int[] decode(int[] encoded) {
+		
+	}
+
+}

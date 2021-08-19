@@ -1,0 +1,26 @@
+package ds.sorting.algorithms;
+// https://www.geeksforgeeks.org/cycle-sort/
+// https://www.youtube.com/watch?v=gZNOM_yMdSQ
+public class CycleSort {
+
+	public static void main(String[] args) {
+	
+		CycleSort obj = new CycleSort();
+		int arr[] = { 1, 8, 3, 9, 10, 10, 2, 4 };
+		obj.sort(arr);
+		System.out.println("Sorted array using selection sort: ");
+		obj.printArray(arr);
+	}
+
+	void sort(int[] arr) {
+		int n = arr.length;
+		 
+	}
+
+	// Prints the array
+	void printArray(int[] arr) {
+		for (int i : arr)
+			System.out.print(i + " ");
+	}
+
+}

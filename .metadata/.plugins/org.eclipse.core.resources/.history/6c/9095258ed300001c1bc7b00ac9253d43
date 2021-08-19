@@ -1,0 +1,9 @@
+package ds.bitManipulation;
+
+public class PrintAllSubSet {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

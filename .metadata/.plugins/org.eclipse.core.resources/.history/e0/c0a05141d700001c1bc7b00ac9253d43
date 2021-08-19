@@ -1,0 +1,25 @@
+package assignment;
+
+// Leetocde 137
+public class SingleNumber2 {
+
+	public static void main(String[] args) {
+		// int nums[] = {0, 1, 0, 1, 0, 1, 99}
+		int nums[] = { 99, 0, 1, 0, 1, 0, 1, 45, 99, 99 };
+		int ans = singleNumber(nums);
+		System.out.println("The single non-repeating number is " + ans);
+	}
+
+	/*
+	 * Using the property of XOR xor of two number is 0, do xor of all the elements
+	 * and at the end only the number which occured once will be left
+	 */
+	private static int singleNumber(int[] nums) {
+		int ans = 0;
+		for (int i : nums) {
+			ans = ans ^ i;
+		}
+		return ans;
+	}
+
+}

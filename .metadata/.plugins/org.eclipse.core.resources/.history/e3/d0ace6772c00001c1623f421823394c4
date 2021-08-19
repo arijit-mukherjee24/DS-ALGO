@@ -1,0 +1,17 @@
+package math.algorithm;
+
+public class ModularPower {
+
+	public static void main(String[] args) {
+		int x = 2;
+		int y = 5;
+		int p = 13;
+		
+		System.out.print("Power is "+ power(x, y, p));
+	}
+
+	private static String power(int x, int y, int p) {
+		return null;
+	}
+
+}

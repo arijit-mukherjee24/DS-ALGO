@@ -1,0 +1,19 @@
+package math.algorithm;
+
+// Find all the prime number upto N
+public class SieveOfEratosthenes {
+
+	public static void main(String[] args) {
+		int n = 12;
+		System.out.println("Following are the prime numbers smaller than or equal to "+n);
+	}
+
+	private static boolean isPrime(int n) {
+		for (int i = 2; (i * i) <= n; i++)
+			if (n % i == 0) {
+				return false;
+			}
+		return true;
+	}
+
+}
