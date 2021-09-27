@@ -10,4 +10,5 @@
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.assignment.linkedlist.ListNode"/>
 </qualifiedTypeNameHistroy>
