@@ -1,0 +1,96 @@
+Graph Algorithms:
+=================
+
+1. Graph Representation
+https://www.geeksforgeeks.org/graph-and-its-representations/
+
+-------------------------------------------------------------------------------------
+
+2. BFS
+https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
+
+Kahn's Algorithm
+https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/
+
+3. DFS
+https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+
+https://www.youtube.com/watch?v=pcKY4hjDrxk (Abdul Bari)
+
+-------------------------------------------------------------------------------------
+
+4. Prims Algorithm - MST
+https://www.youtube.com/watch?v=4ZlRH0eK-qQ (Abdul Bari)
+https://www.youtube.com/watch?v=HnD676J56ak Take u forward
+https://www.youtube.com/watch?v=8KPEROaLK-0 Java Impl Take u forward
+
+Java Code Link(Brute):https://github.com/striver79/StriversGraphSeries/blob/main/primsAlgoJava
+Java Code Link(Efficient): https://github.com/striver79/StriversGraphSeries/blob/main/primsAlgoJavaEfficient
+
+5. Kruskals algorithm - MST
+https://www.youtube.com/watch?v=1KRmCzBl_mQ Take u forward
+Java Code Link:  https://github.com/striver79/StriversGraphSeries/blob/main/KruskalAlgoJava
+
+-------------------------------------------------------------------------------------
+
+6. Dijkstra Algorithm - Single Source Shortest Path - Greedy Method
+https://www.youtube.com/watch?v=XB4MIexjvY0 (Abdul Bari)
+https://www.youtube.com/watch?v=jbhuqIASjoM (Take u forward)
+Java Code Link: https://github.com/striver79/StriversGraphSeries/blob/main/djisktraJava
+Refer : GFG Also
+
+7. Bellman Ford Algorithm - Single Source Shortest Path - Dynamic Programming
+https://www.youtube.com/watch?v=FtN3BYH2Zes (Abdul Bari)
+https://www.youtube.com/watch?v=75yC1vbS8S8 (Take u forward)
+Java Code Link: https://github.com/striver79/StriversGraphSeries/blob/main/BellmanFordJava
+Refer : GFG Also
+
+8. Floyd-Warshall - All Pairs Shortest Path - Dynamic Programming
+https://www.youtube.com/watch?v=oNI0rf2P9gE (Abdul Bari)
+https://www.youtube.com/watch?v=nV_wOZnhbog (Techdose)
+C++ code: https://gist.github.com/SuryaPratapK/19c9acc834711f7e5cd8b6f710b0344f
+GFG: https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/
+Refer: Leetcode 1334 & 1462
+
+-------------------------------------------------------------------------------------
+
+9. Articulation Point and Biconnected Components
+https://www.youtube.com/watch?v=jFZsDDB0-vo (Abdul Bari)
+
+10. Tarjans strongly connected components algorithm
+https://www.youtube.com/watch?v=ZeDNSeilf-Y (Techdose) 
+C++ : https://gist.github.com/SuryaPratapK/41adc04cc89a3ffb6e8d2398f6fd2a8d  (Conversion not done)
+
+11.  Tarjans Articulation Points Algorithm 
+https://www.youtube.com/watch?v=64KK9K4RpKE (Techdose)
+C++ code link : https://gist.github.com/SuryaPratapK/f31c88f9bfe23585611c912dd472c25d (Conversion not done)
+
+12. Find Bridges in a graph using Tarjans Algorithm | Cut Edge
+https://www.youtube.com/watch?v=Rhxs4k6DyMM (Techdose)
+C++ code link : https://gist.github.com/SuryaPratapK/36ae25dfb8a43af1834435486784520d (Techdose)
+Refer : Leetcode 1192
+
+
+13. Kosaraju Algorithm | Strongly connected components in a graph
+https://www.youtube.com/watch?v=Rs6DXyWpWrI (Techdose)
+GFG: Kosaraju Algo (Strongly Connected Graph)
+C++ code link : https://gist.github.com/SuryaPratapK/46eab4ae86095c1bdf68b233fb2998c7
+https://www.youtube.com/watch?v=V8qIqJxCioo (Take u forward)
+Java Code link : https://github.com/striver79/StriversGraphSeries/blob/main/kosaRajuJava
+
+-------------------------------------------------------------------------------------
+
+Other's Topic :-
+Disjoint Set: Union/Find Path Compression/ Ranking
+Topological Sort - Acyclic & cyclic both
+Strongly Connected Graph
+Graph Colouring: Directed and Undirected
+Bipartite Graph
+
+-------------------------------------------------------------------------------------
+
+Travelling Salesman problem (TSP)
+Flood fill
+Snake and Ladder
+
+-------------------------------------------------------------------------------------
