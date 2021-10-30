@@ -1,0 +1,95 @@
+Reference: Aditya Verma & Techdose
+
+Basic Knapsack:
+=====================================================================================================
+**https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/   0/1 knapsack   (Recursive, DP with Memoization, Top-down)
+**https://www.youtube.com/watch?v=WNkqbqyvR_0 Tabulation approachc by Techdose
+All 0/1 video by aditya verma
+
+subset sum: 
+subset sum problem dynamic programming | Techdose
+7 Subset Sum Problem Aditya Verma
+**https://www.techiedelight.com/subset-sum-problem/ DP + Memoization Approach
+
+Partition Equal Subset Sum  (sum = sum/2)
+============================================
+Count of subset with given sum :
+Method 2: Using Tabulation Method: https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/ (Tabulation method - GFG)
+DP + Memoization :-
+========================
+**https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1
+class Solution{
+    int[][] dp;
+	public int perfectSum(int arr[],int n, int sum) 
+	{ 
+	    dp = new int[arr.length + 1][sum+1];
+	    for(int[] row: dp)
+	        Arrays.fill(row, -1);
+	        
+        return subsetSum(arr, n, sum);
+	} 
+	
+	private  int subsetSum(int arr[], int n, int sum) {
+	    if(sum == 0)
+	        return 1;
+	        
+        if(n == 0)
+            return 0;
+            
+        if(dp[n][sum] != -1)
+            return dp[n][sum];
+            
+        if(arr[n-1] > sum) {
+            return dp[n][sum] = perfectSum(arr, n-1, sum);
+        }
+        else {
+             return dp[n][sum] = perfectSum(arr, n-1, sum) + perfectSum(arr, n-1, sum-arr[n-1]);
+        }
+	}
+}
+
+Count Subsetsum Recursion:-
+https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x-using-recursion/
+==========================================
+Minimum Subset Sum Difference : Aditya Verma
+Subset Sum + Last row calculation till sum/2
+diff = (sum -j) - j = sum -2*j;
+Aditya Verma:
+===========================================
+Count the number of subset with a given difference
+s1 - s2 = diff
+s1 + s2 = sum
+s1 = (sum + diff)/2;
+
+Question changes to:
+Count of subset with given sum 
+===========================================
+Target Sum : Aditya Verma
+Same as Countno of subset 	sum with a given diff
+
+============================================
+Unbounded Knapsack:
+Rod Cutting Problem: https://www.youtube.com/watch?v=SZqAQLjDsag&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=14 Aditya Verma
+**https://www.geeksforgeeks.org/cutting-a-rod-dp-13/  Method 3) Using the idea of Unbounded Knapsack.
+
+
+===================================================================================================================================
+====================================================================================================================================
+LCS : Leetcode (Memoization & Tabulation)
+
+Longest Common Substring : https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1 Solved ( else condition = 0, and maxlen var used to store maxlen) , Ref: Aditya Verma
+
+Longest Repeating Subsequence
+**https://www.geeksforgeeks.org/longest-repeating-subsequence/   (LCS + i!=j)
+
+392. Is Subsequence : Leetcode [Sequence Pattern Matching]
+
+25 Minimum Number of Insertion and Deletion to convert String a to String b [LCS + Logic]
+**https://www.geeksforgeeks.org/minimum-number-deletions-insertions-transform-one-string-another/
+
+28 Minimum number of deletion in a string to make it a palindrome
+str.length() - LPS[= LCS(str,reverse(str)) 
+
+32 Minimum number of insertion in a string to make it a palindrome
+
+1312. Minimum Insertion Steps to Make a String Palindrome (Leetcode hard)
