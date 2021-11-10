@@ -15,7 +15,7 @@ package com.segment.tree;
  * Segment Tree: Q query time: O(QlogN)			U update time: O(UlogN)
  */
 
-public class ImplSegmentTree {
+public class ImplSegmentTree_RangeSumQuery {
 
 	public static int[] st;
 
