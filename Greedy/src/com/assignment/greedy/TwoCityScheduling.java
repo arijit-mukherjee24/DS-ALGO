@@ -5,6 +5,7 @@ import java.util.Arrays;
 // Leetcode 1029 Two City Scheduling
 
 //Ref: https://www.youtube.com/watch?v=cevaICIEyjs Knowledge Center
+// Check the explanation
 
 public class TwoCityScheduling {
 

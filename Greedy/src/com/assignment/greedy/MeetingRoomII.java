@@ -2,7 +2,9 @@ package com.assignment.greedy;
 
 // Ref: https://www.youtube.com/watch?v=PWgFnSygweI
 // Lintcode 919: https://www.lintcode.com/problem/919/
-
+// same as 
+// same as Minim
+// Minim
 import java.util.Collections;
 import java.util.List;
 import java.util.PriorityQueue;
@@ -32,6 +34,7 @@ Explanation:
 Only need one meeting room
 Tags
 
+// Same as Minimum Platform Problem
 ====================================================================================
 ====================================================================================
 */
