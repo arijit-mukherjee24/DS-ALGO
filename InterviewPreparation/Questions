@@ -1,0 +1,45 @@
+Interview Preparation - https://docs.google.com/document/d/1oTT-G0EByxLFgdbzfIavLEHngd_9vIstueV9-6fVuok/edit#heading=h.tppp4snjsr9h
+===========================================================================================================================================
+Company Name : Goldman Sachs (1-5 days)
+Ref: Arsh Goyal Sheet 
+Questions :
+	Given an array of strings, return all groups of strings that are anagrams.
+	Overlapping rectangles
+	Count the subarrays having product less than k
+	Given a string, Your task is to  complete the function encode that returns the run length encoded string for the given string.
+		eg if the input string is “wwwwaaadexxxxxx”, then the function should return “w4a3d1e1x6″.(Modified version of question named Cute Monkeys)
+	Program to find Nth Ugly Number.
+	Greatest-common-divisor-of-strings/
+	Find the kid which gets the damaged toy
+	Total Decoding Messages
+	Given a pattern containing only I's and D's. I for increasing and D
+		for decreasing.Devise an algorithm to print the minimum number following
+		that pattern.
+	Find max 10 numbers in a list having 10M entries.
+	Given an unsorted array Arr of size N of positive integers. One number
+		'A' from     set {1, 2, …N} is missing and one number 'B'  occurs twice in array.   Find these two numbers.
+ 	Find total number of Squares in a N*N chessboard
+ 	Decode the string
+ 	Minimum Size Subarray Sum
+	Array Pair Sum Divisibility Problem
+
+===========================================================================================================================================
+Company Name : Amazon Sheet (6 -10 days)
+Arsh Amazon Cheat Sheet #ReviseWithArsh
+1.Calculating Maximum Profit (Multiple Ladders Question)
+2.Longest Mountain 
+3.IPL 2021 - Match Day 2 (similar to maximum in subarray)
+4.Brackets in Matrix Chain Multiplication 
+5.Phone directory (Question similar to this based on Amazon Pay as a service)
+6.Maximum of all subarrays of size k
+7.First non-repeating character in a stream
+8.Count ways to N'th Stair(Order does not matter)
+9.Which among them forms a perfect Sudoku Pattern ?
+10.Nuts and Bolts Problem
+11.Tree Serialization and Deserialization
+12.Column name from a given column number
+13.Rotten Oranges -Multiple Repetitions
+14.Tree Burning 
+15. Delete N nodes after M nodes of a linked list 
+
+===========================================================================================================================================
