@@ -8,8 +8,8 @@ public class ValidateBST {
 
 	}
 
-	// driver function
-	public boolean isValidBST(TreeNode root) {
+	// driver function - Techdose
+	/*public boolean isValidBST(TreeNode root) {
 		if (root == null)
 			return true;
 
@@ -28,7 +28,26 @@ public class ValidateBST {
 		}
 
 		return false;
-	}
+	}*/
+	
+	 //Function to check whether a Binary Tree is BST or not.
+	// Striver TC: O(n)  SC: O(1)
+	// https://www.youtube.com/watch?v=f-sj7I5oXEI&list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk&index=47
+    // driver fnc
+    boolean isBST(TreeNode root)
+    {
+        return isValid(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
+    
+    static boolean isValid(TreeNode node, int min, int max) {
+        if(node == null) return true;
+        
+        if(node.val >= max || node.val <=min) return false;
+        
+        return isValid(node.left, min, node.val)
+                && isValid(node.right, node.val, max);
+    }
+	
 
 }
 

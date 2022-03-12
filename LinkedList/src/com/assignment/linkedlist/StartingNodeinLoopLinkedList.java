@@ -4,15 +4,8 @@ package com.assignment.linkedlist;
 // https://www.youtube.com/watch?v=JA0btO100c0 Code Library
 
 /**
- * Definition for singly-linked list.
- * class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
+ * Definition for singly-linked list. class ListNode { int val; ListNode next;
+ * ListNode(int x) { val = x; next = null; } }
  */
 public class StartingNodeinLoopLinkedList {
 	public ListNode detectCycle(ListNode head) {
@@ -38,6 +31,6 @@ public class StartingNodeinLoopLinkedList {
 		}
 
 		return high;
-		
+
 	}
 }

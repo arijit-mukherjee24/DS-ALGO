@@ -6,6 +6,32 @@ import java.util.PriorityQueue;
 
 // Ref: https://www.techiedelight.com/find-kth-largest-element-array/
 
+// https://practice.geeksforgeeks.org/problems/k-largest-elements4206/1/?page=1&company[]=Walmart&category[]=Arrays&sortBy=submissions
+
+/*
+ 	int[] kLargest(int[] arr, int n, int k) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        for(int i=0; i<k; i++) {
+            pq.offer(arr[i]);
+        }
+        
+        for(int i=k; i<n; i++) {
+            if(arr[i] > pq.peek()) {
+                pq.poll();
+                pq.offer(arr[i]);
+            }
+        }
+        
+        int[] res = new int[k];
+        int i = k-1;
+        while(!pq.isEmpty()) {
+            res[i--] = pq.poll();
+        }
+        
+        return res;
+    }
+ */
+
 /*
  * Using Max Heap
 	We can easily solve this problem in O(n + k.log(n)) by using a max-heap. 

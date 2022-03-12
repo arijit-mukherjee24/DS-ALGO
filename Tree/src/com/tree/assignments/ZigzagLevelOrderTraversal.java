@@ -74,3 +74,43 @@ public class ZigzagLevelOrderTraversal {
     }
 
 }
+
+/* GFG Soln https://practice.geeksforgeeks.org/viewSol.php?subId=51e7d9637bd22c868aa80868e0fd3005&pid=700688&user=arijitcode10
+ 
+ //Function to store the zig zag order traversal of tree in a list.
+	ArrayList<Integer> zigZagTraversal(Node root)
+	{
+	   ArrayList<Integer> res = new ArrayList<Integer>();
+	   Queue<Node> q = new LinkedList<>();
+	   q.add(root);
+	   
+	   boolean l2r = true;
+	   while(!q.isEmpty()) {
+	       int size = q.size();
+	       
+	       ArrayList<Integer> sublist = new ArrayList<Integer>();
+	       for(int i=0; i<size; i++) {
+	           Node temp = q.poll();
+	           if(temp.left != null)
+	                q.add(temp.left);
+                
+                if(temp.right != null) 
+                    q.add(temp.right);
+                
+                if(l2r) 
+                    sublist.add(temp.data);
+                else 
+                    sublist.add(0,temp.data);
+	       }
+	       
+	       for(int j = 0; j<sublist.size(); j++) {
+	           res.add(sublist.get(j));
+	       }
+	       
+	       l2r = !l2r;
+	   }
+	   return res;
+	}
+	
+	
+*/

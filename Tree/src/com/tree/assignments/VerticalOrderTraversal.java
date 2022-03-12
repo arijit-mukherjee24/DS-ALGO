@@ -22,6 +22,74 @@ class Tuple {
 	}
 }
 
+/*
+ * GFG
+
+ //Function to find the vertical order traversal of Binary Tree.
+    static ArrayList <Integer> verticalOrder(Node root)
+    {
+        ArrayList <Integer> res = new ArrayList <Integer>();
+        if(root == null) return res;
+        
+        TreeMap<Integer,TreeMap<Integer, ArrayList<Integer>>> map =
+            new TreeMap<Integer,TreeMap<Integer, ArrayList<Integer>>>();
+            
+        Queue<Tuple> q = new LinkedList<>();
+        q.add(new Tuple(root, 0, 0));
+        
+        while(!q.isEmpty()) {
+            Tuple t = q.poll();
+            int x = t.row;
+            int y = t.col;
+            Node node = t.node;
+            
+            if(!map.containsKey(y)) {
+                map.put(y, new TreeMap<>());
+            }
+            
+            if(!map.get(y).containsKey(x)) {
+                map.get(y).put(x, new ArrayList<>());
+            }
+            
+            map.get(y).get(x).add(node.data);
+            
+            if(node.left != null)
+                q.add(new Tuple(node.left, y-1, x+1));
+                
+            if(node.right != null)
+                q.add(new Tuple(node.right, y+1, x+1));
+        }
+        
+        
+        for(TreeMap<Integer, ArrayList<Integer>> ys: map.values()) {
+            for(ArrayList<Integer> temp : ys.values()) {
+                for(int i=0; i<temp.size(); i++) {
+                    res.add(temp.get(i));
+                }
+            }
+            
+        }
+        
+        return res;
+    }
+}
+
+
+class Tuple {
+    Node node;
+    int row;
+    int col;
+    
+    Tuple() {}
+    Tuple(Node node, int v, int l) {
+        this.node = node;
+        this.col = v;
+        this.row = l;
+    }
+}
+
+ */
+
 public class VerticalOrderTraversal {
 
 	public static void main(String[] args) {
